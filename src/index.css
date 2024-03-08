@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Style+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+}
+body {
+  overflow-y: hidden;
+}
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+.header {
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  display: flex;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+}
+.Logo {
+  align-self: center;
+  border-radius: 5px;
+  width: 3rem;
+  /* padding-bottom:1rem; */
+  /* padding: 2rem 0px 2rem 0px; */
+  height: 3rem;
+}
+
+.side {
+  background-color: #141a4d;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 1.5rem;
+  gap: 3rem;
+  align-items: center;
+}
+
+.sideButton {
+  border: none;
+  color: rgb(159, 158, 158);
+  padding: 18px;
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent !important;
+  transition: 0.5s;
+}
+.sideButtonHigh {
+  border: none;
+  background: rgb(43, 68, 203);
+  background: linear-gradient(
+    153deg,
+    rgba(43, 68, 203, 1) 0%,
+    rgba(43, 68, 203, 1) 27%,
+    rgba(43, 68, 203, 1) 36%,
+    rgba(39, 62, 184, 1) 46%,
+    rgba(36, 56, 168, 1) 50%,
+    rgba(34, 53, 160, 1) 59%,
+    rgba(29, 44, 131, 1) 100%
+  );
+  color: white;
+  width: 100%;
+  padding: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.sideButton:hover {
+  background: rgb(43, 68, 203);
+  background: linear-gradient(
+    153deg,
+    rgba(43, 68, 203, 1) 0%,
+    rgba(43, 68, 203, 1) 27%,
+    rgba(43, 68, 203, 1) 36%,
+    rgba(39, 62, 184, 1) 46%,
+    rgba(36, 56, 168, 1) 50%,
+    rgba(34, 53, 160, 1) 59%,
+    rgba(29, 44, 131, 1) 100%
+  );
+  color: #fff;
+}
+.btn {
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  border: none;
+  background: rgb(43, 68, 203);
+  background: linear-gradient(
+    153deg,
+    rgba(43, 68, 203, 1) 0%,
+    rgba(43, 68, 203, 1) 27%,
+    rgba(43, 68, 203, 1) 36%,
+    rgba(39, 62, 184, 1) 46%,
+    rgba(36, 56, 168, 1) 50%,
+    rgba(34, 53, 160, 1) 59%,
+    rgba(29, 44, 131, 1) 100%
+  );
+  cursor: pointer;
+  color: #fff !important;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+.btn:hover {
+  color: white;
+}
+
+.MainDiv {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: 100vh;
+}
+
+.route {
+  padding: 20px;
+  background-color: #f6f8fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: auto;
+}
+
+.cardMain1 {
+  border-radius: 10px;
+  height: 15rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  padding: 1rem;
+  justify-content: center;
+  /* align-items: center; */
+  /* cursor: pointer; */
+  box-shadow: -2px 11px 37px -17px rgb(112, 111, 111);
+}
+.cardMain {
+  /* border: 2px solid #d6d6d6; */
+  border-radius: 10px;
+  height: 30vh;
+  width: 13vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: -2px 11px 37px -17px rgb(112, 111, 111);
+}
+.imgBack {
+  margin-left: 35%;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+  background-color: rgb(86, 137, 213);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.imgDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img1{
+  /* left: 10rem; */
+  position: relative;
+  width: 35%;
+  
+}
+.img {
+  
+  width: 80%;
+  height: 75%;
+  filter: hue-rotate(327deg);
+}
+.divCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.sheetDiv {
+  display: flex;
+  gap: 20px;
+}
+
+/* logosection */
+/* .Logo {
+  height: 100px;
+} */
+
+/* regPage */
+.resPage{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  /* justify-content: center; */
+}
+.resPage h1{
+  font-size: 2rem;
+}
+.semster{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.topSem{
+  background: rgb(43, 68, 203);
+  background: linear-gradient(
+    153deg,
+    rgba(43, 68, 203, 1) 0%,
+    rgba(43, 68, 203, 1) 27%,
+    rgba(43, 68, 203, 1) 36%,
+    rgba(39, 62, 184, 1) 46%,
+    rgba(36, 56, 168, 1) 50%,
+    rgba(34, 53, 160, 1) 59%,
+    rgba(29, 44, 131, 1) 100%
+  );
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 0.3rem;
+  border-radius: 100px;
+  color: #fff;
+}
+.topSem h1{
+  font-size: 2rem;
+}
+
+/* phone */
+
+@media (max-width:778px){
+    .cardMain1{
+      height: 20vh;
+      width: 30vh;
+    }
+    .img1{
+      width: 10vh;
+    }
+    .resPage{
+      gap: 1rem;
+    }
+    .sheetDiv{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .sheetDiv .cardMain1{
+      width: 30vh;
+    }
+    .divCard{
+      display: flex;
+      flex-direction: column;
+    }
+    .divCard .cardMain{
+      width: 90%;
+      height: 10%;
+      display: grid;
+      grid-template-columns: 20% 55% 25%;
+      align-items: center;
+      /* flex-direction: row; */
+    }
+    .divCard .cardMain p{
+      font-size: small;
+    }
+    .divCard .cardMain .imgBack{
+      width: 5vh;
+      height: 5vh;
+    }
+}
+@media (max-width:1280px) {
+  .cardMain1{
+    height: 20vh;
+    width: 30vh;
+  }
+  .img1{
+    width: 10vh;
+  }
+  .resPage{
+    gap: 1rem;
+  }
+  .sheetDiv{
+    width: 100%;
+    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .sheetDiv .cardMain1{
+    width: 30vh;
+    height: 15vh;
+  }
+  .divCard{
+    display: flex;
+    flex-direction: column;
+  }
+  .divCard .cardMain{
+    width: 90%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    align-items: center;
+    /* flex-direction: row; */
+  }
+  .divCard .cardMain p{
+    font-size: small;
+  }
+  .divCard .cardMain .imgBack{
+    width: 5vh;
+    height: 5vh;
+  }
+  .registerBack{
+    flex-direction: column;
+    justify-content: start !important;
+  }
+  .registerBack .cardMain{
+    width: 90%;
+    height: 8%;
+
+  }
+}
+
+.registerBack{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
