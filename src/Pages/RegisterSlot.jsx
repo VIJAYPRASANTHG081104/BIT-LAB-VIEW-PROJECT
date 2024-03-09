@@ -3,7 +3,10 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const RegisterSlot = () => {
-  const details = useSelector((state) => state.student);
+  
+  //  && localStorage.setItem("detail", JSON.stringify(value));
+
+  const details = JSON.parse(localStorage.getItem("detail"));
   console.log(details);
   return (
     <div>

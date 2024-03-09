@@ -1,14 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/bitlogo.jpg";
 
 const SideBar = () => {
   const [state, setState] = useState("odd");
 
+  useEffect(() => {
+    const storedState = localStorage.getItem("state");
+
+    if (storedState) {
+      setState(storedState);
+    }
+  }, []); 
+
   return (
     <>
       <div>
-        <img src={Logo} className="Logo" />
+        <img src={Logo} className="Logo" alt="Logo" />
       </div>
 
       <div>
@@ -16,6 +24,7 @@ const SideBar = () => {
           to="odd"
           onClick={() => {
             setState("odd");
+            localStorage.setItem("state", "odd");
           }}
         >
           <button className={state === "odd" ? "sideButtonHigh" : "sideButton"}>
@@ -28,9 +37,21 @@ const SideBar = () => {
             className={state === "even" ? "sideButtonHigh" : "sideButton"}
             onClick={() => {
               setState("even");
+              localStorage.setItem("state", "even");
             }}
           >
             EVEN SEMESTER
+          </button>
+        </Link>
+        <Link to="/test">
+          <button
+            className={state === "test" ? "sideButtonHigh" : "sideButton"}
+            onClick={() => {
+              setState("test");
+              localStorage.setItem("state", "test");
+            }}
+          >
+            POs
           </button>
         </Link>
       </div>
