@@ -80,9 +80,13 @@ body {
   );
   color: #fff;
 }
+.btnMin{
+  width: 23% !important;
+  border-radius: 100% !important;
+}
 .btn {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 10px;
   border: none;
   background: rgb(43, 68, 203);
@@ -271,6 +275,20 @@ body {
       width: 5vh;
       height: 5vh;
     }
+    /* loader */
+    .loaderClass{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column !important;
+    }
+    .loaderClass img{
+      width: 15rem !important;
+    }
+    .loaderClass h1{
+      font-size: 2rem !important;
+    }
 }
 @media (max-width:1280px) {
   .cardMain1{
@@ -319,8 +337,8 @@ body {
   .registerBack .cardMain{
     width: 90%;
     height: 8%;
-
   }
+
 }
 
 .registerBack{
@@ -331,4 +349,22 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
+}
+.title{
+  color: #fff;
+  font-size: 2REM;
+  font-weight: bolder;
+}
+/* loader */
+.loaderClass{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loaderClass img{
+  width: 25rem;
+}
+.loaderClass h1{
+  font-size: 4rem;
 }

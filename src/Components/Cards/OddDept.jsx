@@ -26,7 +26,7 @@ const OddDept = () => {
             
           <p>{e.name}</p>
           <Link to={`/sheet/res`} onClick={() => update(e)}>
-            <button className="btn">OPEN</button>
+            <button className="btn btnMin"><i class="fa-solid fa-arrow-right"></i></button>
           </Link>
         </div>
       ))}

@@ -18,7 +18,7 @@ const SideBar = () => {
       <div>
         <img src={Logo} className="Logo" alt="Logo" />
       </div>
-
+      <p className="title">ACADEMIC LAB</p>
       <div>
         <Link
           to="odd"
@@ -43,7 +43,7 @@ const SideBar = () => {
             EVEN SEMESTER
           </button>
         </Link>
-        <Link to="/test">
+        {/* <Link to="/test"> */}
           <button
             className={state === "test" ? "sideButtonHigh" : "sideButton"}
             onClick={() => {
@@ -51,9 +51,9 @@ const SideBar = () => {
               localStorage.setItem("state", "test");
             }}
           >
-            POs
+            PROCTORED TEST
           </button>
-        </Link>
+        {/* </Link> */}
       </div>
     </>
   );
