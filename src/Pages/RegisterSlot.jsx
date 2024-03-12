@@ -15,7 +15,7 @@ const RegisterSlot = () => {
         <h1>SLOT BOOKING</h1>
       </div>
       <div className="registerBack">
-        {details.sheet[0].links.map((value, index) => {
+        {details.sheet[0] && details.sheet[0].links.map((value, index) => {
           return (
             <div className="cardMain" data-aos="flip-left">
               <div className="imgDiv">
