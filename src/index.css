@@ -289,6 +289,9 @@ body {
     .loaderClass h1{
       font-size: 2rem !important;
     }
+    .btnMin{
+      width: 2.5rem !important;
+    }
 }
 @media (max-width:1280px) {
   .cardMain1{

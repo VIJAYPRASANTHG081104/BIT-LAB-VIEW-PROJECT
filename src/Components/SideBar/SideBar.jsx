@@ -21,7 +21,7 @@ const SideBar = () => {
       <p className="title">ACADEMIC LAB</p>
       <div>
         <Link
-          to="odd"
+          to="/odd"
           onClick={() => {
             setState("odd");
             localStorage.setItem("state", "odd");
@@ -48,7 +48,6 @@ const SideBar = () => {
             className={state === "test" ? "sideButtonHigh" : "sideButton"}
             onClick={() => {
               setState("test");
-              localStorage.setItem("state", "test");
             }}
           >
             PROCTORED TEST

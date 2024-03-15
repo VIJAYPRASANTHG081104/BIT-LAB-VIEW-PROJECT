@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Card from '../Components/Cards/Card'
 import { oddData } from '../assets/Data'
+import { useNavigate } from 'react-router-dom'
 const Odd = () => {
+    const navigate = useNavigate(); 
     const data = oddData
+    const stateData = localStorage.getItem('state');
+    console.log(stateData);
+    useEffect(()=>{
+      if(stateData == 'even'){
+        navigate('/even');
+      }
+    },[0])
+
   return (
     <>
       <section className='semster'>

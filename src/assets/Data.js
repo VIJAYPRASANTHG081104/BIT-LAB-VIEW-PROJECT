@@ -42,6 +42,7 @@ export const EvenData = [
           {
             card: "SLOT BOOKING",
             img: register,
+            link:"/register/course",
             links: [
               {
                 subject: "BASICS OF ELECTRONICS ENGINEERING",
@@ -57,7 +58,7 @@ export const EvenData = [
               },
             ],
           },
-          { card: "COMPLETION STATUS", img: completed, link: "" },
+          { card: "COMPLETION STATUS", img: completed, link: "https://docs.google.com/spreadsheets/d/1hEUzVPK0E00I0hIQpWWer7Mysc2_tJFwpiTOJoNi6LI/edit#gid=1584362692" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
       },
@@ -68,6 +69,7 @@ export const EvenData = [
         sheet: [
           {
             card: "SLOT BOOKING",
+            link:"/register/course",
             img: register,
             links: [
               {
@@ -100,10 +102,12 @@ export const EvenData = [
           {
             card: "SLOT BOOKING",
             img: register,
+            link:"/register/course",
             links: [
               {
-                subject: "BASICS OF ELECTRICAL ENGINEERING ",
+                subject: "BASICS OF ELECTRICAL ENGINEERING",
                 link: "",
+
               },
               {
                 subject: "DIGITAL COMPUTER ELECTRONICS ",
@@ -131,6 +135,7 @@ export const EvenData = [
           {
             card: "SLOT BOOKING",
             img: register,
+            link:"/register/course",
             links: [
               {
                 subject: "BASICS OF ELECTRONICS ENGINEERING",
@@ -155,7 +160,7 @@ export const EvenData = [
         year: "I year",
         img: biotech,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -178,7 +183,7 @@ export const EvenData = [
         year: "I year",
         img: civil,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -201,7 +206,7 @@ export const EvenData = [
         year: "I year",
         img: csbs,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [
             {
               subject: "DATA STRUCTURES",
               link: "",
@@ -220,7 +225,7 @@ export const EvenData = [
         year: "I year",
         img: csd,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRICAL ENGINEERING",
               link: "",
@@ -247,7 +252,7 @@ export const EvenData = [
         year: "I year",
         img: cs,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRICAL ENGINEERING",
               link: "",
@@ -274,7 +279,7 @@ export const EvenData = [
         year: "I year",
         img: ct,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRICAL ENGINEERING",
               link: "",
@@ -292,7 +297,7 @@ export const EvenData = [
               link: "",
             },
           ] },
-          { card: "COMPLETION STATUS", img: completed, link: "" },
+          { card: "COMPLETION STATUS", img: completed,  link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
       },
@@ -301,7 +306,7 @@ export const EvenData = [
         year: "I year",
         img: eee,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -324,7 +329,7 @@ export const EvenData = [
         year: "I year",
         img: ece,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -347,7 +352,7 @@ export const EvenData = [
         year: "I year",
         img: eie,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -371,7 +376,7 @@ export const EvenData = [
         year: "I year",
         img: fasion,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -394,7 +399,7 @@ export const EvenData = [
         year: "I year",
         img: foodtech,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -417,7 +422,7 @@ export const EvenData = [
         year: "I year",
         img: ise,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRICAL ENGINEERING",
               link: "",
@@ -444,7 +449,7 @@ export const EvenData = [
         year: "I year",
         img: it,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRICAL ENGINEERING",
               link: "",
@@ -471,7 +476,7 @@ export const EvenData = [
         year: "I year",
         img: mechatronincs,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -494,7 +499,7 @@ export const EvenData = [
         year: "I year",
         img: mechanical,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [
             {
               subject: "BASICS OF ELECTRONICS ENGINEERING",
               link: "",
@@ -932,7 +937,7 @@ export const oddData = [
         img: agri,
         year: "I year",
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -942,7 +947,7 @@ export const oddData = [
         year: "I year",
         img: datascience,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course",links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -952,7 +957,7 @@ export const oddData = [
         year: "I year",
         img: machine,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -962,7 +967,7 @@ export const oddData = [
         year: "I year",
         img: biomedical,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -972,7 +977,7 @@ export const oddData = [
         year: "I year",
         img: biotech,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -982,7 +987,7 @@ export const oddData = [
         year: "I year",
         img: civil,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -992,7 +997,7 @@ export const oddData = [
         year: "I year",
         img: csbs,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1002,7 +1007,7 @@ export const oddData = [
         year: "I year",
         img: csd,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1012,7 +1017,7 @@ export const oddData = [
         year: "I year",
         img: cs,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1022,7 +1027,7 @@ export const oddData = [
         year: "I year",
         img: ct,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1032,7 +1037,7 @@ export const oddData = [
         year: "I year",
         img: eee,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1042,7 +1047,7 @@ export const oddData = [
         year: "I year",
         img: ece,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register,link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1052,7 +1057,7 @@ export const oddData = [
         year: "I year",
         img: fasion,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1062,7 +1067,7 @@ export const oddData = [
         year: "I year",
         img: foodtech,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1072,7 +1077,7 @@ export const oddData = [
         year: "I year",
         img: ise,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1082,7 +1087,7 @@ export const oddData = [
         year: "I year",
         img: it,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1092,7 +1097,7 @@ export const oddData = [
         year: "I year",
         img: mechatronincs,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1102,7 +1107,7 @@ export const oddData = [
         year: "I year",
         img: mechanical,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1112,7 +1117,7 @@ export const oddData = [
         year: "I year",
         img: eie,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],
@@ -1123,7 +1128,7 @@ export const oddData = [
         year: "I year",
         img: textile,
         sheet: [
-          { card: "SLOT BOOKING", img: register, links: [{}] },
+          { card: "SLOT BOOKING", img: register, link:"/register/course", links: [{}] },
           { card: "COMPLETION STATUS", img: completed, link: "" },
           { card: "MISSED SLOT", img: missed, link: "" },
         ],

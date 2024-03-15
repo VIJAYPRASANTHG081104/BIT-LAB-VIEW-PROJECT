@@ -29,7 +29,7 @@ const ResPage = () => {
                 <div className="imgDiv">
                   <img className="img1" src={e.img} />
                 </div>
-                <Link to={"/register/course"}>
+                <Link to={e.link}>
                   <button className="btn">{e.card}</button>
                 </Link>
               </div>

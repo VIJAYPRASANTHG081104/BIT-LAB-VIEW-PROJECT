@@ -30,7 +30,7 @@ const EvenDept = () => {
             
           <p>{e.name}</p>
           <Link to={`/sheet/res`} onClick={() => update(e)}>
-            <button className="btn btnMin"><i class="fa-solid fa-arrow-right"></i></button>
+            <button className="btn btnMin"><i className="fa-solid fa-arrow-right"></i></button>
           </Link>
         </div>
       ))}
